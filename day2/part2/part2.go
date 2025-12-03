@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 	"os"
 	"strconv"
 	"strings"
@@ -34,7 +33,7 @@ func isRepeatingString(str string, rep string) bool {
 
 func isInvalidProductId(num int) bool {
 	numStr := strconv.Itoa(num)
-	l := int(math.Ceil(float64(len(numStr))))
+	l := len(numStr)
 
 	for i := 0; i < l/2; i++ {
 		part := numStr[:i+1]
