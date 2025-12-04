@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
+
+	aoc "github.com/liondadev/aoc2025"
 )
 
-// getMaxJoltage gets the biggest 12-digit number that can be made from
+// getMaxJoltage gets the biggest k-digit number that can be made from
 // the digits in order.
-func getMaxJoltage(rack string) int {
+func getMaxJoltage(rack string, k int) int {
 
 }
 
